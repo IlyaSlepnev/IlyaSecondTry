@@ -51,6 +51,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="oneArgumentTests\CosineTest.cs" />
+    <Compile Include="oneArgumentTests\OneArgumentFactoryTest.cs" />
     <Compile Include="oneArgumentTests\RadicalTest.cs" />
     <Compile Include="oneArgumentTests\SinusTest.cs" />
     <Compile Include="oneArgumentTests\TangentTest.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="twoArgumentsTests\MinusTest.cs" />
     <Compile Include="twoArgumentsTests\MultiplicationTest.cs" />
     <Compile Include="twoArgumentsTests\PlusTest.cs" />
+    <Compile Include="twoArgumentsTests\TwoArgumentsFactoryTest.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
