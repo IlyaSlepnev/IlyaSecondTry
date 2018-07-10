@@ -18,11 +18,11 @@ namespace Calculator
             {
                 string firstValueText = textBox1.Text;
                 double firstValue = Convert.ToDouble(firstValueText);
-                string secondValueText = textBox3.Text;
+                string secondValueText = textBox2.Text;
                 double secondValue = Convert.ToDouble(secondValueText);
                 ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
                 double result = calculator.Calculate(firstValue, secondValue);
-                textBox2.Text = result.ToString();
+                textBox3.Text = result.ToString();
             }
             catch (Exception TwoArgumentsException)
             {
@@ -45,5 +45,6 @@ namespace Calculator
                 MessageBox.Show("Неверное выражение" + OneArgumentException);
             }
         }
+
     }
 }
