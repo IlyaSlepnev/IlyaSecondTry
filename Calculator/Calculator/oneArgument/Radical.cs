@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.oneArgument
 {
-    class Radical
+    public class Radical : IOneArgumentCalculator
     {
+        /// <summary>
+        /// Radical count with one argument
+        /// </summary>
+        /// <param name="radical"></param>
+        /// <returns>
+        /// thirdArgument equals radical count
+        /// </returns>
+        public double Calculate(double radical)
+        {
+            return Math.Sqrt(radical);
+        }
     }
 }

@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.oneArgument
 {
-    class Sinus
+    public class Sinus : IOneArgumentCalculator
     {
+        /// <summary>
+        /// Sinus count with one argument
+        /// </summary>
+        /// <param name="thirdArgument"></param>
+        /// <returns>
+        /// thirdArgument equals sinus count
+        /// </returns>
+        public double Calculate(double thirdArgument)
+        {
+            return Math.Sin(thirdArgument);
+        }
     }
 }

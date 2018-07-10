@@ -1,12 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.oneArgument
 {
-    class IOneArgumentCalculator
+    public interface IOneArgumentCalculator
     {
+        /// <summary>
+        /// OneArgumentCalculator interface for work with classes
+        /// </summary>
+        /// <param name="thirdValue"></param>
+        /// <returns>
+        /// thirdValue
+        /// </returns>
+        double Calculate(double thirdValue);
     }
 }

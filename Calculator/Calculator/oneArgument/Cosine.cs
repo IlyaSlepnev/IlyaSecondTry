@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.oneArgument
 {
-    class Cosine
+    public class Сosine : IOneArgumentCalculator
     {
+        /// <summary>
+        /// Cosine count with one argument
+        /// </summary>
+        /// <param name="thirdArgument"></param>
+        /// <returns>
+        /// thirdArgument equals cos count
+        /// </returns>
+        public double Calculate(double thirdArgument)
+        {
+            return Math.Cos(thirdArgument);
+        }
     }
 }
