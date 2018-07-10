@@ -1,12 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.twoArguments
 {
-    class Degree
+    public class Degree : ITwoArgumentsCalculator
     {
+        /// <summary>
+        /// Degree count with two arguments
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// <param name="secondArgument"></param>
+        /// <returns>
+        /// thirdArgument equals degree 
+        /// </returns>
+        public double Calculate(double firstArgument, double secondArgument)
+        {
+            return Math.Pow(firstArgument, secondArgument);
+        }
     }
 }

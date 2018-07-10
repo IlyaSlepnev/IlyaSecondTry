@@ -1,12 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.twoArguments
 {
-    class Multiplication
+    public class Multiplication : ITwoArgumentsCalculator
     {
+        /// <summary>
+        /// Multiplication count with two arguments
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// <param name="secondArgument"></param>
+        /// <returns>
+        /// firstArgument
+        /// secondArgument
+        /// </returns>
+        public double Calculate(double firstArgument, double secondArgument)
+        {
+            return firstArgument * secondArgument;
+        }
     }
 }

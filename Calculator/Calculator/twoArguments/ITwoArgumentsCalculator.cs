@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator.twoArguments
+﻿namespace Calculator.twoArguments
 {
-    class ITwoArgumentsCalculator
+    public interface ITwoArgumentsCalculator
     {
+        /// <summary>
+        /// Two arguments calculator interface
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// <param name="secondArgument"></param>
+        /// <returns>
+        /// firstArgument
+        /// secondArgument
+        /// </returns>
+        double Calculate(double firstArgument, double secondArgument);
     }
 }
