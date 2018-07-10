@@ -80,6 +80,7 @@
             this.SolutionPlus.TabIndex = 4;
             this.SolutionPlus.Text = "Plus";
             this.SolutionPlus.UseVisualStyleBackColor = true;
+            this.SolutionPlus.Click += new System.EventHandler(this.ClickMain);
             // 
             // SolutionMinus
             // 
@@ -89,6 +90,7 @@
             this.SolutionMinus.TabIndex = 5;
             this.SolutionMinus.Text = "Minus";
             this.SolutionMinus.UseVisualStyleBackColor = true;
+            this.SolutionMinus.Click += new System.EventHandler(this.ClickMain);
             // 
             // SolutionMulti
             // 
@@ -98,6 +100,7 @@
             this.SolutionMulti.TabIndex = 6;
             this.SolutionMulti.Text = "Multiplication";
             this.SolutionMulti.UseVisualStyleBackColor = true;
+            this.SolutionMulti.Click += new System.EventHandler(this.ClickMain);
             // 
             // SolutionDiv
             // 
@@ -107,6 +110,7 @@
             this.SolutionDiv.TabIndex = 7;
             this.SolutionDiv.Text = "Division";
             this.SolutionDiv.UseVisualStyleBackColor = true;
+            this.SolutionDiv.Click += new System.EventHandler(this.ClickMain);
             // 
             // SolutionDegree
             // 
@@ -116,6 +120,7 @@
             this.SolutionDegree.TabIndex = 8;
             this.SolutionDegree.Text = "Degree";
             this.SolutionDegree.UseVisualStyleBackColor = true;
+            this.SolutionDegree.Click += new System.EventHandler(this.ClickMain);
             // 
             // DegreeFraction
             // 
@@ -125,6 +130,7 @@
             this.DegreeFraction.TabIndex = 9;
             this.DegreeFraction.Text = "DegreeFraction";
             this.DegreeFraction.UseVisualStyleBackColor = true;
+            this.DegreeFraction.Click += new System.EventHandler(this.ClickMain);
             // 
             // radicalSolution
             // 
@@ -134,6 +140,7 @@
             this.radicalSolution.TabIndex = 10;
             this.radicalSolution.Text = "Radical";
             this.radicalSolution.UseVisualStyleBackColor = true;
+            this.radicalSolution.Click += new System.EventHandler(this.ClickMainOne);
             // 
             // sinSolution
             // 
@@ -143,6 +150,7 @@
             this.sinSolution.TabIndex = 11;
             this.sinSolution.Text = "Sinus";
             this.sinSolution.UseVisualStyleBackColor = true;
+            this.sinSolution.Click += new System.EventHandler(this.ClickMainOne);
             // 
             // cosSolution
             // 
@@ -152,6 +160,7 @@
             this.cosSolution.TabIndex = 12;
             this.cosSolution.Text = "Cosine";
             this.cosSolution.UseVisualStyleBackColor = true;
+            this.cosSolution.Click += new System.EventHandler(this.ClickMainOne);
             // 
             // tanSolution
             // 
@@ -161,6 +170,7 @@
             this.tanSolution.TabIndex = 13;
             this.tanSolution.Text = "Tangent";
             this.tanSolution.UseVisualStyleBackColor = true;
+            this.tanSolution.Click += new System.EventHandler(this.ClickMainOne);
             // 
             // Form1
             // 
@@ -183,6 +193,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Click += new System.EventHandler(this.ClickMainOne);
             this.ResumeLayout(false);
             this.PerformLayout();
 
